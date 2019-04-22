@@ -46,7 +46,7 @@ int main(){
 				cout<<"Height: ";
 				cin>>y;
 				cout<<"Color: ";
-				getline(cin, c);
+				cin>>c;
 				shapesArray[i]=new triangle(x,y,c);
 				i++;
 				break;
@@ -57,7 +57,7 @@ int main(){
 				cout<<"Width: ";
 				cin>>y;
 				cout<<"Color: ";
-				getline(cin, c);
+				cin>>c;
 				shapesArray[i]=new rectangle(x,y,c);
 				i++;
 				break;
@@ -66,7 +66,7 @@ int main(){
 				cout<<"Radius: ";
 				cin>>x;
 				cout<<"Color: ";
-				getline(cin, c);
+				cin>>c;
 				shapesArray[i]=new circle(x, c);
 				i++;
 				break;
